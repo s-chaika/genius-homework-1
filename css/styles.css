@@ -98,7 +98,7 @@ header .menu-link {
   font-weight: 700;
 }
 
-/* Main section */
+/* Hero section */
 .hero-title {
   color: var(--color-primary);
   font-family: Play, sans-serif;
@@ -110,9 +110,16 @@ header .menu-link {
 
 .order-button {
   color: var(--color-primary-light);
+  font-weight: 700;
+  padding: 16px 32px;
   background-color: var(--color-primary);
-  border: none;
+  border: var(--color-primary) solid 2px;
   border-radius: 32px;
+}
+
+.order-button:hover {
+  color: var(--color-primary-dark);
+  background: none;
 }
 
 .order-description {
