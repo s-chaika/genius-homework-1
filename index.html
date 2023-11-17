@@ -9,12 +9,12 @@
   <body>
     <header>
       <nav>
-        <a class="logo link" href="./index.html">beauty zone</a>
+        <a class="logo-link" href="./index.html">beauty zone</a>
         <ul>
-          <li><a class="menu-item link" href="#">Про нас</a></li>
-          <li><a class="menu-item link" href="#">Чому ми</a></li>
-          <li><a class="menu-item link" href="#">Наші процедури</a></li>
-          <li><a class="menu-item link" href="#">Контакти</a></li>
+          <li><a class="menu-link" href="#">Про нас</a></li>
+          <li><a class="menu-link" href="#">Чому ми</a></li>
+          <li><a class="menu-link" href="#">Наші процедури</a></li>
+          <li><a class="menu-link" href="#">Контакти</a></li>
         </ul>
       </nav>
       <address>
@@ -41,61 +41,84 @@
       <section>
         <p>Косметологічна клініка</p>
         <h1 class="hero-title">beauty zone</h1>
-        <button type="button">Замовити дзвінок</button>
-        <p>Запишись та отримай безкоштовну консультацію нашого косметолога</p>
+        <button class="order-button" type="button">Замовити дзвінок</button>
+        <p class="order-description">
+          Запишись та отримай безкоштовну консультацію нашого косметолога
+        </p>
       </section>
       <section id="about-section">
         <h2 class="section-title">
           Перевтілюйтесь в <span class="accent">Beauty Zone!</span>
         </h2>
-        <p>
+        <p class="about-text">
           Наша косметологічна клініка пропонує вам професійні послуги з догляду
           за шкірою обличчя та тіла.
         </p>
-        <p>
-          B <span>Beauty Zone</span> ми гарантуємо найвищі стандарти якості та
+        <p class="about-text">
+          B <span>beauty zone</span> ми гарантуємо найвищі стандарти якості та
           приємний сервіс. Наші косметологічні процедури та препарати допоможуть
           вам підтримувати свою красу та молодість. З нами краса назавжди!
         </p>
       </section>
       <section id="advantages-section">
-        <h2 class="section-title">
+        <h2 class="section-title center">
           Чому люди <span class="accent">обирають нас</span>
         </h2>
         <ul>
           <li>
-            <p>
-              Всі наші косметологи мають вищу медичну освіту та стаж роботи від
-              5 років
-            </p>
+            <article>
+              <p class="advantages-text">
+                Всі наші косметологи мають вищу медичну освіту та стаж роботи
+                від 5 років
+              </p>
+            </article>
           </li>
           <li>
-            <p>
-              Використовуємо тільки професійне обладнання та косметику,
-              перевірену часом
-            </p>
+            <article>
+              <p class="advantages-text">
+                Використовуємо тільки професійне обладнання та косметику,
+                перевірену часом
+              </p>
+            </article>
           </li>
           <li>
-            <p>
-              Наша мета - підкреслити переваги та приховати недоліки, а не
-              переробити
-            </p>
+            <article>
+              <p class="advantages-text">
+                Наша мета - підкреслити переваги та приховати недоліки, а не
+                переробити
+              </p>
+            </article>
           </li>
         </ul>
       </section>
       <section id="procedures-section">
-        <h2 class="section-title">
+        <h2 class="section-title center">
           Наші <span class="accent">процедури</span>
         </h2>
         <ul>
-          <li><p>Маски для обличчя</p></li>
-          <li><p>Ін'єкції для обличчя</p></li>
-          <li><p>Очищення обличчя</p></li>
+          <li>
+            <article>
+              <p class="procedures-text">Маски для обличчя</p>
+            </article>
+          </li>
+          <li>
+            <article>
+              <p class="procedures-text">Ін'єкції для обличчя</p>
+            </article>
+          </li>
+          <li>
+            <article>
+              <p class="procedures-text">Очищення обличчя</p>
+            </article>
+          </li>
         </ul>
       </section>
       <section class="contacts-section">
-        <h2 class="section-title">Як нас <span class="accent">знайти</span></h2>
+        <h2 class="section-title center">
+          Як нас <span class="accent">знайти</span>
+        </h2>
         <iframe
+          class="contacts-map"
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.932573471345!2d30.515600376556794!3d50.44235657159072!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cef8b5f6338d%3A0x25c7f06ad686451c!2z0LHRg9C70YzQstCw0YAg0KLQsNGA0LDRgdCwINCo0LXQstGH0LXQvdC60LAsIDUsINCa0LjRl9CyLCAwMjAwMA!5e0!3m2!1suk!2sua!4v1700140618643!5m2!1suk!2sua"
           width="605"
           height="481"
@@ -107,27 +130,29 @@
     </main>
     <footer>
       <nav>
-        <a class="logo link" href="./index.html">beauty zone</a>
+        <a class="logo-link" href="./index.html">beauty zone</a>
         <ul>
-          <li><a class="menu-item link" href="#">Про нас</a></li>
-          <li><a class="menu-item link" href="#">Чому ми</a></li>
-          <li><a class="menu-item link" href="#">Наші процедури</a></li>
-          <li><a class="menu-item link" href="#">Контакти</a></li>
+          <li><a class="menu-link" href="#">Про нас</a></li>
+          <li><a class="menu-link" href="#">Чому ми</a></li>
+          <li><a class="menu-link" href="#">Наші процедури</a></li>
+          <li><a class="menu-link" href="#">Контакти</a></li>
         </ul>
       </nav>
       <address>
         <ul>
           <li>
-            <a class="link" href="tel:+380960000007">+ 38 (096) 000 00 07</a>
+            <a class="address-link" href="tel:+380960000007"
+              >+ 38 (096) 000 00 07</a
+            >
           </li>
           <li>
-            <a class="link" href="mailto:beautyzone@gmail.com"
+            <a class="address-link" href="mailto:beautyzone@gmail.com"
               >beautyzone@gmail.com</a
             >
           </li>
           <li>
             <a
-              class="link"
+              class="address-link"
               href="https://maps.app.goo.gl/8k8LiRJa2Az8qU1z7"
               target="_blank"
             >
@@ -136,17 +161,17 @@
           </li>
 
           <li>
-            <a class="link" href="#" target="_blank">
+            <a class="address-link" href="#" target="_blank">
               <!--  phone icon -->
             </a>
           </li>
           <li>
-            <a class="link" href="#" target="_blank">
+            <a class="address-link" href="#" target="_blank">
               <!--  facebook icon -->
             </a>
           </li>
           <li>
-            <a class="link" href="#" target="_blank">
+            <a class="address-link" href="#" target="_blank">
               <!-- instagram icon -->
             </a>
           </li>
